@@ -110,4 +110,4 @@
 20 6,7 * * * node /scripts/jd_family.js |ts >> /scripts/logs/jd_family.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-22 18 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+46 1 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
