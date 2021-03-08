@@ -110,6 +110,8 @@
 20 6,7 * * * node /scripts/jd_family.js |ts >> /scripts/logs/jd_family.log 2>&1
 #京东直播（又回来了）
 10-20/5 12,23 * * * node /scripts/jd_live.js |ts >> /scripts/logs/jd_live.log 2>&1
+#京小兑
+23 5,23 * * * node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-11 16 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+51 8 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
