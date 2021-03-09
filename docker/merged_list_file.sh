@@ -9,7 +9,10 @@
 35 6,22 * * * node /scripts/jd_global.js |ts >> /scripts/logs/jd_global.log 2>&1
 #京东极速版红包(活动时间：2021-3-8至2021-3-25)
 15 0,23 * * * node /scripts/jd_speed_redpocke.js |ts >> /scripts/logs/jd_speed_redpocke.log 2>&1
-
+#女装盲盒 活动时间：2021-3-8至2021-3-20
+5 1,23 * * * node /scripts/jd_nzmh.js |ts >> /scripts/logs/jd_nzmh.log 2>&1
+#超级直播间红包雨
+30,31 20-23/1 9,12 3 * node /scripts/jd_live_redrain.js |ts >> /scripts/logs/jd_live_redrain.log 2>&1
 ##############长期活动##############
 # 签到
 3 0,18 * * * cd /scripts && node jd_bean_sign.js |ts >> /scripts/logs/jd_bean_sign.log 2>&1
@@ -113,4 +116,4 @@
 23 5,23 * * * node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-52 22 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+40 10 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
