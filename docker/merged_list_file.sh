@@ -28,7 +28,7 @@
 # 宠汪汪喂食
 15 */1 * * * node /scripts/jd_joy_feedPets.js |ts >> /scripts/logs/jd_joy_feedPets.log 2>&1
 # 宠汪汪偷好友积分与狗粮
-
+13 0-21/3 * * * node /scripts/jd_joy_steal.js |ts >> /scripts/logs/jd_joy_steal.log 2>&1
 # 摇钱树
 0 */2 * * * node /scripts/jd_moneyTree.js |ts >> /scripts/logs/jd_moneyTree.log 2>&1
 # 东东萌宠
@@ -115,4 +115,4 @@
 23 5,23 * * * node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-14 5 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+57 13 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
