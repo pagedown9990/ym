@@ -36,8 +36,6 @@
 0 0-16/8 * * * node /scripts/jd_joy_reward.js |ts >> /scripts/logs/jd_joy_reward.log 2>&1
 # 宠汪汪喂食
 35 */1 * * * node /scripts/jd_joy_feedPets.js |ts >> /scripts/logs/jd_joy_feedPets.log 2>&1
-# 宠汪汪偷好友积分与狗粮
-33 0-21/3 * * * node /scripts/jd_joy_steal.js |ts >> /scripts/logs/jd_joy_steal.log 2>&1
 # 宠汪汪邀请助力
 10 13-20/1 * * * node /scripts/jd_joy_run.js |ts >> /scripts/logs/jd_joy_run.log 2>&1
 # 摇钱树
@@ -59,7 +57,7 @@
 # 京豆变动通知
 20 10 * * * node /scripts/jd_bean_change.js |ts >> /scripts/logs/jd_bean_change.log 2>&1
 # 京东抽奖机
-31 0 * * * node /scripts/jd_lotteryMachine.js |ts >> /scripts/logs/jd_lotteryMachine.log 2>&1
+31 0,12,23 * * * node /scripts/jd_lotteryMachine.js |ts >> /scripts/logs/jd_lotteryMachine.log 2>&1
 # 京东排行榜
 21 9 * * * node /scripts/jd_rankingList.js |ts >> /scripts/logs/jd_rankingList.log 2>&1
 # 天天提鹅
@@ -122,4 +120,4 @@
 13 8,16,20 * * * node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-22 19 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+11 9 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
