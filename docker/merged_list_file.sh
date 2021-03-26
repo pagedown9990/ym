@@ -5,8 +5,6 @@
 
 ##############短期活动##############
 
-#京东极速版红包(活动时间：2021-3-8至2021-3-25)
-45 0,23 * * * node /scripts/jd_speed_redpocke.js |ts >> /scripts/logs/jd_speed_redpocke.log 2>&1
 #女装盲盒 活动时间：2021-03-22到2021-03-31
 35 1,23 * * * node /scripts/jd_nzmh.js |ts >> /scripts/logs/jd_nzmh.log 2>&1
 #超级直播间红包雨(活动时间不定期，出现异常提示请忽略。红包雨期间会正常)
@@ -25,7 +23,7 @@
 # 东东超市兑换奖品
 0,30 0 * * * node /scripts/jd_blueCoin.js |ts >> /scripts/logs/jd_blueCoin.log 2>&1
 # 摇京豆
-6 0 * * * node /scripts/jd_club_lottery.js |ts >> /scripts/logs/jd_club_lottery.log 2>&1
+6 0,23 * * * node /scripts/jd_club_lottery.js |ts >> /scripts/logs/jd_club_lottery.log 2>&1
 # 东东农场
 15 6-18/6 * * * node /scripts/jd_fruit.js |ts >> /scripts/logs/jd_fruit.log 2>&1
 # 宠汪汪
@@ -118,4 +116,4 @@
 13 8,16,20 * * * node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-50 13 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+44 7 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
