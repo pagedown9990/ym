@@ -69,7 +69,7 @@
 46 6,23 * * * node /scripts/jd_small_home.js |ts >> /scripts/logs/jd_small_home.log 2>&1
 # 东东工厂
 26 * * * * node /scripts/jd_jdfactory.js |ts >> /scripts/logs/jd_jdfactory.log 2>&1
-# 十元街
+# 赚京豆(微信小程序)
 12 8,18 * * * node /scripts/jd_syj.js |ts >> /scripts/logs/jd_syj.log 2>&1
 # 京东快递签到
 47 1 * * * node /scripts/jd_kd.js |ts >> /scripts/logs/jd_kd.log 2>&1
@@ -78,7 +78,7 @@
 # 领京豆额外奖励(每日可获得3京豆)
 23 4 * * * node /scripts/jd_bean_home.js |ts >> /scripts/logs/jd_bean_home.log 2>&1
 # 微信小程序京东赚赚
-6 0,11 * * * node /scripts/jd_jdzz.js |ts >> /scripts/logs/jd_jdzz.log 2>&1
+6 0,1,2,11 * * * node /scripts/jd_jdzz.js |ts >> /scripts/logs/jd_jdzz.log 2>&1
 # crazyJoy自动每日任务
 30 7,23 * * * node /scripts/jd_crazy_joy.js |ts >> /scripts/logs/jd_crazy_joy.log 2>&1
 # 京东汽车旅程赛点兑换金豆
@@ -117,4 +117,4 @@
 13 8,16,20 * * * node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-15 10 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+51 23 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
