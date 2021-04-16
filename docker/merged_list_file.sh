@@ -5,118 +5,118 @@
 
 ##############短期活动##############
 #女装盲盒 活动时间：2021-04-1到2021-04-31
-35 1,23 * * * node /scripts/jd_nzmh.js |ts >> /scripts/logs/jd_nzmh.log 2>&1
+35 1,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_nzmh.js |ts >> /scripts/logs/jd_nzmh.log 2>&1
 
 
 #京东极速版红包(活动时间：2021-5-5至2021-5-5)
-45 0,23 * * * node /scripts/jd_speed_redpocke.js |ts >> /scripts/logs/jd_speed_redpocke.log 2>&1
+45 0,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_speed_redpocke.js |ts >> /scripts/logs/jd_speed_redpocke.log 2>&1
 
 #超级直播间红包雨(活动时间不定期，出现异常提示请忽略。红包雨期间会正常)
-1,31 0-23/1 * * * node /scripts/jd_live_redrain.js |ts >> /scripts/logs/jd_live_redrain.log 2>&1
+1,31 0-23/1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_live_redrain.js |ts >> /scripts/logs/jd_live_redrain.log 2>&1
 
 #5G超级盲盒 活动时间：2021-03-19到2021-04-30
-10 0,1-23/4 * * * node /scripts/jd_mohe.js |ts >> /scripts/logs/jd_mohe.log 2>&1
+10 0,1-23/4 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_mohe.js |ts >> /scripts/logs/jd_mohe.log 2>&1
 #京东手机狂欢城活动，每日可获得30+以上京豆（其中20京豆是往期奖励，需第一天参加活动后，第二天才能拿到）活动时间: 2021-4-1至2021-4-20
-0 0-18/6,19-23/1 * * * node /scripts/jd_carnivalcity.js |ts >> /scripts/logs/jd_carnivalcity.log 2>&1
+0 0-18/6,19-23/1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_carnivalcity.js |ts >> /scripts/logs/jd_carnivalcity.log 2>&1
 ##############长期活动##############
 # 签到
-7 0,17 * * * cd /scripts && node jd_bean_sign.js |ts >> /scripts/logs/jd_bean_sign.log 2>&1
+7 0,17 * * * cd /scripts && spnode jd_bean_sign.js |ts >> /scripts/logs/jd_bean_sign.log 2>&1
 # 东东超市兑换奖品
-0,30 0 * * * node /scripts/jd_blueCoin.js |ts >> /scripts/logs/jd_blueCoin.log 2>&1
+0,30 0 * * * spnode /scripts/jd_blueCoin.js |ts >> /scripts/logs/jd_blueCoin.log 2>&1
 # 摇京豆
-6 0,23 * * * node /scripts/jd_club_lottery.js |ts >> /scripts/logs/jd_club_lottery.log 2>&1
+6 0,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_club_lottery.js |ts >> /scripts/logs/jd_club_lottery.log 2>&1
 # 东东农场
-15 6-18/6 * * * node /scripts/jd_fruit.js |ts >> /scripts/logs/jd_fruit.log 2>&1
+15 6-18/6 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_fruit.js |ts >> /scripts/logs/jd_fruit.log 2>&1
 # 宠汪汪
-45 */2,23 * * * node /scripts/jd_joy.js |ts >> /scripts/logs/jd_joy.log 2>&1
+45 */2,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_joy.js |ts >> /scripts/logs/jd_joy.log 2>&1
 # 宠汪汪积分兑换京豆
-0 0-16/8 * * * node /scripts/jd_joy_reward.js |ts >> /scripts/logs/jd_joy_reward.log 2>&1
+0 0-16/8 * * * spnode /scripts/jd_joy_reward.js |ts >> /scripts/logs/jd_joy_reward.log 2>&1
 #宠汪汪偷好友积分与狗粮
-5 0-23/4 * * * node /scripts/jd_joy_steal.js |ts >> /scripts/logs/jd_joy_steal.log 2>&1
+5 0-23/4 * * * spnode /scripts/jd_joy_steal.js |ts >> /scripts/logs/jd_joy_steal.log 2>&1
 # 宠汪汪喂食
-35 */1 * * * node /scripts/jd_joy_feedPets.js |ts >> /scripts/logs/jd_joy_feedPets.log 2>&1
+35 */1 * * * spnode /scripts/jd_joy_feedPets.js |ts >> /scripts/logs/jd_joy_feedPets.log 2>&1
 # 宠汪汪邀请助力
-10 13-20/1 * * * node /scripts/jd_joy_run.js |ts >> /scripts/logs/jd_joy_run.log 2>&1
+10 13-20/1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_joy_run.js |ts >> /scripts/logs/jd_joy_run.log 2>&1
 # 摇钱树
-23 */2 * * * node /scripts/jd_moneyTree.js |ts >> /scripts/logs/jd_moneyTree.log 2>&1
+23 */2 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_moneyTree.js |ts >> /scripts/logs/jd_moneyTree.log 2>&1
 # 东东萌宠
-35 6-18/6 * * * node /scripts/jd_pet.js |ts >> /scripts/logs/jd_pet.log 2>&1
+35 6-18/6 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_pet.js |ts >> /scripts/logs/jd_pet.log 2>&1
 # 京东种豆得豆
-10 7-22/1 * * * node /scripts/jd_plantBean.js |ts >> /scripts/logs/jd_plantBean.log 2>&1
+10 7-22/1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_plantBean.js |ts >> /scripts/logs/jd_plantBean.log 2>&1
 # 京东全民开红包
-12 0-23/4 * * * node /scripts/jd_redPacket.js |ts >> /scripts/logs/jd_redPacket.log 2>&1
+12 0-23/4 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_redPacket.js |ts >> /scripts/logs/jd_redPacket.log 2>&1
 # 进店领豆
-6 0 * * * node /scripts/jd_shop.js |ts >> /scripts/logs/jd_shop.log 2>&1
+6 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_shop.js |ts >> /scripts/logs/jd_shop.log 2>&1
 # 京东天天加速
-28 */3 * * * node /scripts/jd_speed.js |ts >> /scripts/logs/jd_speed.log 2>&1
+28 */3 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_speed.js |ts >> /scripts/logs/jd_speed.log 2>&1
 # 东东超市
-31 0,1-23/2 * * * node /scripts/jd_superMarket.js |ts >> /scripts/logs/jd_superMarket.log 2>&1
+31 0,1-23/2 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_superMarket.js |ts >> /scripts/logs/jd_superMarket.log 2>&1
 # 取关京东店铺商品
-45 23 * * * node /scripts/jd_unsubscribe.js |ts >> /scripts/logs/jd_unsubscribe.log 2>&1
+45 23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_unsubscribe.js |ts >> /scripts/logs/jd_unsubscribe.log 2>&1
 # 京豆变动通知
-20 10 * * * node /scripts/jd_bean_change.js |ts >> /scripts/logs/jd_bean_change.log 2>&1
+20 10 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_bean_change.js |ts >> /scripts/logs/jd_bean_change.log 2>&1
 # 京东抽奖机
-0 0,12,23 * * * node /scripts/jd_lotteryMachine.js |ts >> /scripts/logs/jd_lotteryMachine.log 2>&1
+0 0,12,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_lotteryMachine.js |ts >> /scripts/logs/jd_lotteryMachine.log 2>&1
 # 京东排行榜
-21 9 * * * node /scripts/jd_rankingList.js |ts >> /scripts/logs/jd_rankingList.log 2>&1
+21 9 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_rankingList.js |ts >> /scripts/logs/jd_rankingList.log 2>&1
 # 天天提鹅
-28 * * * * node /scripts/jd_daily_egg.js |ts >> /scripts/logs/jd_daily_egg.log 2>&1
+28 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_daily_egg.js |ts >> /scripts/logs/jd_daily_egg.log 2>&1
 # 金融养猪
-25 * * * * node /scripts/jd_pigPet.js |ts >> /scripts/logs/jd_pigPet.log 2>&1
+25 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_pigPet.js |ts >> /scripts/logs/jd_pigPet.log 2>&1
 # 点点券
-40 0,20 * * * node /scripts/jd_necklace.js |ts >> /scripts/logs/jd_necklace.log 2>&1
+40 0,20 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_necklace.js |ts >> /scripts/logs/jd_necklace.log 2>&1
 # 京喜工厂
-50 * * * * node /scripts/jd_dreamFactory.js |ts >> /scripts/logs/jd_dreamFactory.log 2>&1
+50 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_dreamFactory.js |ts >> /scripts/logs/jd_dreamFactory.log 2>&1
 # 东东小窝
-46 6,23 * * * node /scripts/jd_small_home.js |ts >> /scripts/logs/jd_small_home.log 2>&1
+46 6,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_small_home.js |ts >> /scripts/logs/jd_small_home.log 2>&1
 # 东东工厂
-26 * * * * node /scripts/jd_jdfactory.js |ts >> /scripts/logs/jd_jdfactory.log 2>&1
+26 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_jdfactory.js |ts >> /scripts/logs/jd_jdfactory.log 2>&1
 # 赚京豆(微信小程序)
-12 8,18 * * * node /scripts/jd_syj.js |ts >> /scripts/logs/jd_syj.log 2>&1
+12 8,18 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_syj.js |ts >> /scripts/logs/jd_syj.log 2>&1
 # 京东快递签到
-47 1 * * * node /scripts/jd_kd.js |ts >> /scripts/logs/jd_kd.log 2>&1
+47 1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_kd.js |ts >> /scripts/logs/jd_kd.log 2>&1
 # 京东汽车(签到满500赛点可兑换500京豆)
-0 0 * * * node /scripts/jd_car.js |ts >> /scripts/logs/jd_car.log 2>&1
+0 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_car.js |ts >> /scripts/logs/jd_car.log 2>&1
 # 领京豆额外奖励(每日可获得3京豆)
-23 4 * * * node /scripts/jd_bean_home.js |ts >> /scripts/logs/jd_bean_home.log 2>&1
+23 4 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_bean_home.js |ts >> /scripts/logs/jd_bean_home.log 2>&1
 # 微信小程序京东赚赚
-6 0,1,2,11 * * * node /scripts/jd_jdzz.js |ts >> /scripts/logs/jd_jdzz.log 2>&1
+6 0,1,2,11 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_jdzz.js |ts >> /scripts/logs/jd_jdzz.log 2>&1
 # crazyJoy自动每日任务
-30 7,23 * * * node /scripts/jd_crazy_joy.js |ts >> /scripts/logs/jd_crazy_joy.log 2>&1
+30 7,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_crazy_joy.js |ts >> /scripts/logs/jd_crazy_joy.log 2>&1
 # 京东汽车旅程赛点兑换金豆
-0 0 * * * node /scripts/jd_car_exchange.js |ts >> /scripts/logs/jd_car_exchange.log 2>&1
+0 0 * * * spnode /scripts/jd_car_exchange.js |ts >> /scripts/logs/jd_car_exchange.log 2>&1
 # 导到所有互助码
-23 7 * * * node /scripts/jd_get_share_code.js |ts >> /scripts/logs/jd_get_share_code.log 2>&1
+23 7 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_get_share_code.js |ts >> /scripts/logs/jd_get_share_code.log 2>&1
 # 口袋书店
-38 8,12,18 * * * node /scripts/jd_bookshop.js |ts >> /scripts/logs/jd_bookshop.log 2>&1
+38 8,12,18 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_bookshop.js |ts >> /scripts/logs/jd_bookshop.log 2>&1
 # 京喜农场
-30 9,12,18 * * * node /scripts/jd_jxnc.js |ts >> /scripts/logs/jd_jxnc.log 2>&1
+30 9,12,18 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_jxnc.js |ts >> /scripts/logs/jd_jxnc.log 2>&1
 # 签到领现金
-10 */4 * * * node /scripts/jd_cash.js |ts >> /scripts/logs/jd_cash.log 2>&1
+10 */4 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_cash.js |ts >> /scripts/logs/jd_cash.log 2>&1
 # 京喜app签到
-29 7 * * * node /scripts/jx_sign.js |ts >> /scripts/logs/jx_sign.log 2>&1
+29 7 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jx_sign.js |ts >> /scripts/logs/jx_sign.log 2>&1
 # 闪购盲盒
-47 8 * * * node /scripts/jd_sgmh.js |ts >> /scripts/logs/jd_sgmh.log 2>&1
+47 8 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_sgmh.js |ts >> /scripts/logs/jd_sgmh.log 2>&1
 # 京东秒秒币
-10 6 * * * node /scripts/jd_ms.js |ts >> /scripts/logs/jd_ms.log 2>&1
+10 6 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_ms.js |ts >> /scripts/logs/jd_ms.log 2>&1
 #美丽研究院
-41 7,12,19 * * * node /scripts/jd_beauty.js |ts >> /scripts/logs/jd_beauty.log 2>&1
+41 7,12,19 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_beauty.js |ts >> /scripts/logs/jd_beauty.log 2>&1
 #京东保价
-#41 0,23 * * * node /scripts/jd_price.js |ts >> /scripts/logs/jd_price.log 2>&1
+#41 0,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_price.js |ts >> /scripts/logs/jd_price.log 2>&1
 #京东极速版签到+赚现金任务
-21 1,6 * * * node /scripts/jd_speed_sign.js |ts >> /scripts/logs/jd_speed_sign.log 2>&1
+21 1,6 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_speed_sign.js |ts >> /scripts/logs/jd_speed_sign.log 2>&1
 #监控crazyJoy分红
-10 12 * * * node /scripts/jd_crazy_joy_bonus.js |ts >> /scripts/logs/jd_crazy_joy_bonus.log 2>&1
+10 12 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_crazy_joy_bonus.js |ts >> /scripts/logs/jd_crazy_joy_bonus.log 2>&1
 #京喜财富岛
-5 */2 * * * node /scripts/jd_cfd.js |ts >> /scripts/logs/jd_cfd.log 2>&1
+5 */2 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_cfd.js |ts >> /scripts/logs/jd_cfd.log 2>&1
 # 删除优惠券(默认注释，如需要自己开启，如有误删，已删除的券可以在回收站中还原，慎用)
-#20 9 * * 6 node /scripts/jd_delCoupon.js |ts >> /scripts/logs/jd_delCoupon.log 2>&1
+#20 9 * * 6 sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_delCoupon.js |ts >> /scripts/logs/jd_delCoupon.log 2>&1
 #家庭号
-10 6,7 * * * node /scripts/jd_family.js |ts >> /scripts/logs/jd_family.log 2>&1
+10 6,7 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_family.js |ts >> /scripts/logs/jd_family.log 2>&1
 #京东直播（又回来了）
-30-50/5 12,23 * * * node /scripts/jd_live.js |ts >> /scripts/logs/jd_live.log 2>&1
+30-50/5 12,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_live.js |ts >> /scripts/logs/jd_live.log 2>&1
 #京小兑
-13 8,16,20 * * * node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
+13 8,16,20 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-52 20 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+32 6 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
