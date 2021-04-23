@@ -113,7 +113,11 @@
 #京小兑
 13 8,16,20 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 #京东健康社区
-30 0-23/3 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_health.js |ts >> /scripts/logs/jd_health.log 2>&1
+13 1,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_health.js |ts >> /scripts/logs/jd_health.log 2>&1
+#京东健康社区收集健康能量
+5-45/20 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_health_collect.js |ts >> /scripts/logs/jd_health_collect.log 2>&1
+# 幸运大转盘
+10 10,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_market_lottery.js |ts >> /scripts/logs/jd_market_lottery.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-56 16 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+34 11 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
