@@ -120,4 +120,4 @@
 10 10,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_market_lottery.js |ts >> /scripts/logs/jd_market_lottery.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-34 11 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+40 11 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
