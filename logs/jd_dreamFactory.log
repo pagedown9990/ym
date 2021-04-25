@@ -1,0 +1,696 @@
+Apr 24 23:50:30 
+Apr 24 23:50:30 🔔京喜工厂, 开始!
+Apr 24 23:50:30 
+Apr 24 23:50:30 ====================共0个京东账号Cookie=========
+Apr 24 23:50:30 
+Apr 24 23:50:30 ==================脚本执行- 北京时间(UTC+8)：4/24/2021, 11:50:30 PM=====================
+Apr 24 23:50:30 
+Apr 24 23:50:31 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 24 23:50:31 开始获取京喜工厂配置文件
+Apr 24 23:50:31 
+Apr 24 23:50:31 您的互助码选择的是用&隔开
+Apr 24 23:50:31 
+Apr 24 23:50:31 共0个京东账号
+Apr 24 23:50:31 
+Apr 24 23:50:31 您提供了13个账号的京喜工厂助力码
+Apr 24 23:50:31 
+Apr 24 23:50:31 
+Apr 24 23:50:31 ==============📣系统通知📣==============
+Apr 24 23:50:31 京喜工厂
+Apr 24 23:50:31 【提示】请先获取京东账号一cookie
+Apr 24 23:50:31 直接使用NobyDa的京东签到获取
+Apr 24 23:50:31 https://bean.m.jd.com/bean/signIndex.action
+Apr 24 23:50:31 
+Apr 24 23:50:31 🔔京喜工厂, 结束! 🕛 0.781 秒
+Apr 24 23:50:31 
+Apr 24 23:50:31 获取签名参数成功！
+Apr 24 23:50:31 fp: 0657189623078161
+Apr 24 23:50:31 token: tk01w0b0b1db4a8nVldLaXhjUkpKGoibfAuyrPxdVQiha7YawrivM68bFjeEtVXJLqZaR3kGb54Oq5Olyix2YpsaA7U4
+Apr 24 23:50:31 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='NgYn6mNMzdqE';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Apr 25 00:50:27 
+Apr 25 00:50:27 🔔京喜工厂, 开始!
+Apr 25 00:50:27 
+Apr 25 00:50:27 ====================共0个京东账号Cookie=========
+Apr 25 00:50:27 
+Apr 25 00:50:27 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 12:50:27 AM=====================
+Apr 25 00:50:27 
+Apr 25 00:50:27 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 00:50:27 开始获取京喜工厂配置文件
+Apr 25 00:50:27 
+Apr 25 00:50:27 您的互助码选择的是用&隔开
+Apr 25 00:50:27 
+Apr 25 00:50:27 共0个京东账号
+Apr 25 00:50:27 
+Apr 25 00:50:27 您提供了13个账号的京喜工厂助力码
+Apr 25 00:50:27 
+Apr 25 00:50:27 
+Apr 25 00:50:27 ==============📣系统通知📣==============
+Apr 25 00:50:27 京喜工厂
+Apr 25 00:50:27 【提示】请先获取京东账号一cookie
+Apr 25 00:50:27 直接使用NobyDa的京东签到获取
+Apr 25 00:50:27 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 00:50:27 
+Apr 25 00:50:27 🔔京喜工厂, 结束! 🕛 0.684 秒
+Apr 25 00:50:27 
+Apr 25 00:50:28 获取签名参数成功！
+Apr 25 00:50:28 fp: 3651879501810161
+Apr 25 00:50:28 token: tk01wc43e1c9da8ndGRUUDlSRVJ4oEGqnCbuDKuqssHYiE2zQiTS9IZFlMrwSIJTfR6uDdMp6OhfT0rJIs/y4UEpZSjQ
+Apr 25 00:50:28 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='tI3RQKhhMqrX';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA256(str,token)}
+Apr 25 01:50:31 
+Apr 25 01:50:31 🔔京喜工厂, 开始!
+Apr 25 01:50:31 
+Apr 25 01:50:31 ====================共0个京东账号Cookie=========
+Apr 25 01:50:31 
+Apr 25 01:50:31 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 1:50:31 AM=====================
+Apr 25 01:50:31 
+Apr 25 01:50:32 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 01:50:32 开始获取京喜工厂配置文件
+Apr 25 01:50:32 
+Apr 25 01:50:32 您的互助码选择的是用&隔开
+Apr 25 01:50:32 
+Apr 25 01:50:32 共0个京东账号
+Apr 25 01:50:32 
+Apr 25 01:50:32 您提供了13个账号的京喜工厂助力码
+Apr 25 01:50:32 
+Apr 25 01:50:32 
+Apr 25 01:50:32 ==============📣系统通知📣==============
+Apr 25 01:50:32 京喜工厂
+Apr 25 01:50:32 【提示】请先获取京东账号一cookie
+Apr 25 01:50:32 直接使用NobyDa的京东签到获取
+Apr 25 01:50:32 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 01:50:32 
+Apr 25 01:50:32 🔔京喜工厂, 结束! 🕛 0.744 秒
+Apr 25 01:50:32 
+Apr 25 01:50:32 获取签名参数成功！
+Apr 25 01:50:32 fp: 6059466858280161
+Apr 25 01:50:32 token: tk01waa481bdba8nODZUWTFFU3RMssEizpbSB8qGHgDGnHwQ9nUbZfNxsMQc/IG0tR/x9Yp6+YegPD9dCJJhIz/sJGrK
+Apr 25 01:50:32 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='eTJWEjjciK26';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.MD5(str)}
+Apr 25 02:51:02 
+Apr 25 02:51:02 🔔京喜工厂, 开始!
+Apr 25 02:51:02 
+Apr 25 02:51:02 ====================共0个京东账号Cookie=========
+Apr 25 02:51:02 
+Apr 25 02:51:02 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 2:51:02 AM=====================
+Apr 25 02:51:02 
+Apr 25 02:51:02 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 02:51:02 开始获取京喜工厂配置文件
+Apr 25 02:51:02 
+Apr 25 02:51:02 您的互助码选择的是用&隔开
+Apr 25 02:51:02 
+Apr 25 02:51:02 共0个京东账号
+Apr 25 02:51:02 
+Apr 25 02:51:02 您提供了13个账号的京喜工厂助力码
+Apr 25 02:51:02 
+Apr 25 02:51:02 
+Apr 25 02:51:02 ==============📣系统通知📣==============
+Apr 25 02:51:02 京喜工厂
+Apr 25 02:51:02 【提示】请先获取京东账号一cookie
+Apr 25 02:51:02 直接使用NobyDa的京东签到获取
+Apr 25 02:51:02 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 02:51:02 
+Apr 25 02:51:02 🔔京喜工厂, 结束! 🕛 0.675 秒
+Apr 25 02:51:02 
+Apr 25 02:51:03 获取签名参数成功！
+Apr 25 02:51:03 fp: 2996429307416161
+Apr 25 02:51:03 token: tk01wa8231bfca8nY0tKZERsNk1OTOOVON8SGlvlfyEMq3O/TpNWgxol5HLNSEc3IEbTpk8VVsuK0T4rINeDbaULcJt3
+Apr 25 02:51:03 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='3PkkusMpWA4K';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Apr 25 03:51:29 
+Apr 25 03:51:29 🔔京喜工厂, 开始!
+Apr 25 03:51:29 
+Apr 25 03:51:29 ====================共0个京东账号Cookie=========
+Apr 25 03:51:29 
+Apr 25 03:51:29 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 3:51:29 AM=====================
+Apr 25 03:51:29 
+Apr 25 03:51:30 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 03:51:30 开始获取京喜工厂配置文件
+Apr 25 03:51:30 
+Apr 25 03:51:30 您的互助码选择的是用&隔开
+Apr 25 03:51:30 
+Apr 25 03:51:30 共0个京东账号
+Apr 25 03:51:30 
+Apr 25 03:51:30 您提供了13个账号的京喜工厂助力码
+Apr 25 03:51:30 
+Apr 25 03:51:30 
+Apr 25 03:51:30 ==============📣系统通知📣==============
+Apr 25 03:51:30 京喜工厂
+Apr 25 03:51:30 【提示】请先获取京东账号一cookie
+Apr 25 03:51:30 直接使用NobyDa的京东签到获取
+Apr 25 03:51:30 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 03:51:30 
+Apr 25 03:51:30 🔔京喜工厂, 结束! 🕛 0.718 秒
+Apr 25 03:51:30 
+Apr 25 03:51:30 获取签名参数成功！
+Apr 25 03:51:30 fp: 2950568806756161
+Apr 25 03:51:30 token: tk01wd2591d40a8nb0VuTzZnckpJWi9kgJ9pcuTB9gcn2m+WO3dGt0T/UuAMxFZ/GnMpgJFxbuNQKnxXQITsXuqseGtC
+Apr 25 03:51:30 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='ppkPYLgbCJ8g';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA256(str,token)}
+Apr 25 04:51:11 
+Apr 25 04:51:11 🔔京喜工厂, 开始!
+Apr 25 04:51:11 
+Apr 25 04:51:11 ====================共0个京东账号Cookie=========
+Apr 25 04:51:11 
+Apr 25 04:51:11 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 4:51:11 AM=====================
+Apr 25 04:51:11 
+Apr 25 04:51:12 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 04:51:12 开始获取京喜工厂配置文件
+Apr 25 04:51:12 
+Apr 25 04:51:12 您的互助码选择的是用&隔开
+Apr 25 04:51:12 
+Apr 25 04:51:12 共0个京东账号
+Apr 25 04:51:12 
+Apr 25 04:51:12 您提供了13个账号的京喜工厂助力码
+Apr 25 04:51:12 
+Apr 25 04:51:12 
+Apr 25 04:51:12 ==============📣系统通知📣==============
+Apr 25 04:51:12 京喜工厂
+Apr 25 04:51:12 【提示】请先获取京东账号一cookie
+Apr 25 04:51:12 直接使用NobyDa的京东签到获取
+Apr 25 04:51:12 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 04:51:12 
+Apr 25 04:51:12 🔔京喜工厂, 结束! 🕛 0.665 秒
+Apr 25 04:51:12 
+Apr 25 04:51:12 获取签名参数成功！
+Apr 25 04:51:12 fp: 2935775688970161
+Apr 25 04:51:12 token: tk01wb7991beaa8nbUwzMnpFS2dUOZODhDGaX6gWX2wFviC+LtpvJU5y+qn03xc2O/1i9gKFmFmWFEoJRqZeL55elwD/
+Apr 25 04:51:12 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='pLMCRsnZ03th';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA256(str,token)}
+Apr 25 05:51:27 
+Apr 25 05:51:27 🔔京喜工厂, 开始!
+Apr 25 05:51:27 
+Apr 25 05:51:27 ====================共0个京东账号Cookie=========
+Apr 25 05:51:27 
+Apr 25 05:51:27 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 5:51:27 AM=====================
+Apr 25 05:51:27 
+Apr 25 05:51:28 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 05:51:28 开始获取京喜工厂配置文件
+Apr 25 05:51:28 
+Apr 25 05:51:28 您的互助码选择的是用&隔开
+Apr 25 05:51:28 
+Apr 25 05:51:28 共0个京东账号
+Apr 25 05:51:28 
+Apr 25 05:51:28 您提供了13个账号的京喜工厂助力码
+Apr 25 05:51:28 
+Apr 25 05:51:28 
+Apr 25 05:51:28 ==============📣系统通知📣==============
+Apr 25 05:51:28 京喜工厂
+Apr 25 05:51:28 【提示】请先获取京东账号一cookie
+Apr 25 05:51:28 直接使用NobyDa的京东签到获取
+Apr 25 05:51:28 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 05:51:28 
+Apr 25 05:51:28 🔔京喜工厂, 结束! 🕛 0.719 秒
+Apr 25 05:51:28 
+Apr 25 05:51:28 获取签名参数成功！
+Apr 25 05:51:28 fp: 5960087636866161
+Apr 25 05:51:28 token: tk01w73811a9ba8nc1hVcTM3MFByccVKFWOwnT7Dc20Pp3M5dYMP/EEsWbCOMY7EI9X1uX+8G6MAQmLgHHNLepxUQ2Ry
+Apr 25 05:51:28 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='IREt/GQmb1FO';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 06:50:39 
+Apr 25 06:50:39 🔔京喜工厂, 开始!
+Apr 25 06:50:39 
+Apr 25 06:50:39 ====================共0个京东账号Cookie=========
+Apr 25 06:50:39 
+Apr 25 06:50:39 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 6:50:39 AM=====================
+Apr 25 06:50:39 
+Apr 25 06:50:40 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 06:50:40 开始获取京喜工厂配置文件
+Apr 25 06:50:40 
+Apr 25 06:50:40 您的互助码选择的是用&隔开
+Apr 25 06:50:40 
+Apr 25 06:50:40 共0个京东账号
+Apr 25 06:50:40 
+Apr 25 06:50:40 您提供了13个账号的京喜工厂助力码
+Apr 25 06:50:40 
+Apr 25 06:50:40 
+Apr 25 06:50:40 ==============📣系统通知📣==============
+Apr 25 06:50:40 京喜工厂
+Apr 25 06:50:40 【提示】请先获取京东账号一cookie
+Apr 25 06:50:40 直接使用NobyDa的京东签到获取
+Apr 25 06:50:40 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 06:50:40 
+Apr 25 06:50:40 🔔京喜工厂, 结束! 🕛 0.646 秒
+Apr 25 06:50:40 
+Apr 25 06:50:40 获取签名参数成功！
+Apr 25 06:50:40 fp: 7941907304768161
+Apr 25 06:50:40 token: tk01w94ee1b82a8nd3Q0eVo5R2JRdxD4/+dImBS4Ub4tN7EpzprwkBwUoCsacZujmVT/8jQBBAXBQqm/MxPZ4WTQ83IK
+Apr 25 06:50:40 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='SfDG0U6oRHb2';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 07:51:43 
+Apr 25 07:51:43 🔔京喜工厂, 开始!
+Apr 25 07:51:43 
+Apr 25 07:51:43 ====================共0个京东账号Cookie=========
+Apr 25 07:51:43 
+Apr 25 07:51:43 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 7:51:43 AM=====================
+Apr 25 07:51:43 
+Apr 25 07:51:44 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 07:51:44 开始获取京喜工厂配置文件
+Apr 25 07:51:44 
+Apr 25 07:51:44 您的互助码选择的是用&隔开
+Apr 25 07:51:44 
+Apr 25 07:51:44 共0个京东账号
+Apr 25 07:51:44 
+Apr 25 07:51:44 您提供了13个账号的京喜工厂助力码
+Apr 25 07:51:44 
+Apr 25 07:51:44 
+Apr 25 07:51:44 ==============📣系统通知📣==============
+Apr 25 07:51:44 京喜工厂
+Apr 25 07:51:44 【提示】请先获取京东账号一cookie
+Apr 25 07:51:44 直接使用NobyDa的京东签到获取
+Apr 25 07:51:44 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 07:51:44 
+Apr 25 07:51:44 🔔京喜工厂, 结束! 🕛 0.68 秒
+Apr 25 07:51:44 
+Apr 25 07:51:44 获取签名参数成功！
+Apr 25 07:51:44 fp: 2387630949458161
+Apr 25 07:51:44 token: tk01w9b9b1b8ca8nb3dpOFd6Y1NHgGAitHWFl6KYeWULWQS18l1cXXvPL8wYJuWTlLyixS75cAuwsxH89sM74O7TLS8H
+Apr 25 07:51:44 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='QJ5r/xWSuqAb';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.MD5(str)}
+Apr 25 08:51:23 
+Apr 25 08:51:23 🔔京喜工厂, 开始!
+Apr 25 08:51:23 
+Apr 25 08:51:23 ====================共0个京东账号Cookie=========
+Apr 25 08:51:23 
+Apr 25 08:51:23 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 8:51:23 AM=====================
+Apr 25 08:51:23 
+Apr 25 08:51:24 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 08:51:24 开始获取京喜工厂配置文件
+Apr 25 08:51:24 
+Apr 25 08:51:24 您的互助码选择的是用&隔开
+Apr 25 08:51:24 
+Apr 25 08:51:24 共0个京东账号
+Apr 25 08:51:24 
+Apr 25 08:51:24 您提供了13个账号的京喜工厂助力码
+Apr 25 08:51:24 
+Apr 25 08:51:24 
+Apr 25 08:51:24 ==============📣系统通知📣==============
+Apr 25 08:51:24 京喜工厂
+Apr 25 08:51:24 【提示】请先获取京东账号一cookie
+Apr 25 08:51:24 直接使用NobyDa的京东签到获取
+Apr 25 08:51:24 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 08:51:24 
+Apr 25 08:51:24 🔔京喜工厂, 结束! 🕛 0.683 秒
+Apr 25 08:51:24 
+Apr 25 08:51:25 获取签名参数成功！
+Apr 25 08:51:25 fp: 8470465296656161
+Apr 25 08:51:25 token: tk01w00841d89a8nSExvYm9xZGxzGuun+0Dxb5JPRfscozMGx8MtvuqdYnM2dLmms9XFmqqWk5zYN5bSc5QobBy6J49J
+Apr 25 08:51:25 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='i4eBSa1Exbx8';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 09:50:50 
+Apr 25 09:50:50 🔔京喜工厂, 开始!
+Apr 25 09:50:50 
+Apr 25 09:50:50 ====================共0个京东账号Cookie=========
+Apr 25 09:50:50 
+Apr 25 09:50:50 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 9:50:50 AM=====================
+Apr 25 09:50:50 
+Apr 25 09:50:51 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 09:50:51 开始获取京喜工厂配置文件
+Apr 25 09:50:51 
+Apr 25 09:50:51 您的互助码选择的是用&隔开
+Apr 25 09:50:51 
+Apr 25 09:50:51 共0个京东账号
+Apr 25 09:50:51 
+Apr 25 09:50:51 您提供了13个账号的京喜工厂助力码
+Apr 25 09:50:51 
+Apr 25 09:50:51 
+Apr 25 09:50:51 ==============📣系统通知📣==============
+Apr 25 09:50:51 京喜工厂
+Apr 25 09:50:51 【提示】请先获取京东账号一cookie
+Apr 25 09:50:51 直接使用NobyDa的京东签到获取
+Apr 25 09:50:51 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 09:50:51 
+Apr 25 09:50:51 🔔京喜工厂, 结束! 🕛 0.717 秒
+Apr 25 09:50:51 
+Apr 25 09:50:52 获取签名参数成功！
+Apr 25 09:50:52 fp: 2090579354075161
+Apr 25 09:50:52 token: tk01wd9e41cfba8nTDA5d2tORlRwd8YfsJzwWxjdWftNw0khPnfw+Fq+55Vf9ljkWdSVbuYthQJ5KDY//QWhLmk/vRhN
+Apr 25 09:50:52 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='vu3WRsMLjEwH';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 10:51:37 
+Apr 25 10:51:37 🔔京喜工厂, 开始!
+Apr 25 10:51:37 
+Apr 25 10:51:37 ====================共0个京东账号Cookie=========
+Apr 25 10:51:37 
+Apr 25 10:51:37 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 10:51:37 AM=====================
+Apr 25 10:51:37 
+Apr 25 10:51:38 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 10:51:38 开始获取京喜工厂配置文件
+Apr 25 10:51:38 
+Apr 25 10:51:38 您的互助码选择的是用&隔开
+Apr 25 10:51:38 
+Apr 25 10:51:38 共0个京东账号
+Apr 25 10:51:38 
+Apr 25 10:51:38 您提供了13个账号的京喜工厂助力码
+Apr 25 10:51:38 
+Apr 25 10:51:38 
+Apr 25 10:51:38 ==============📣系统通知📣==============
+Apr 25 10:51:38 京喜工厂
+Apr 25 10:51:38 【提示】请先获取京东账号一cookie
+Apr 25 10:51:38 直接使用NobyDa的京东签到获取
+Apr 25 10:51:38 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 10:51:38 
+Apr 25 10:51:38 🔔京喜工厂, 结束! 🕛 0.679 秒
+Apr 25 10:51:38 
+Apr 25 10:51:38 获取签名参数成功！
+Apr 25 10:51:38 fp: 1782994520271161
+Apr 25 10:51:38 token: tk01wc2be1c95a8nMnhvRjMya05MdRD7ZlM46JcMqQINDPzj6yyvf/bzUIrrR0KaugTf4g7EdsKRKufNkY8LLA8GBrqb
+Apr 25 10:51:38 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='WUaiCSalJ7Ml';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Apr 25 11:50:26 
+Apr 25 11:50:26 🔔京喜工厂, 开始!
+Apr 25 11:50:26 
+Apr 25 11:50:26 ====================共0个京东账号Cookie=========
+Apr 25 11:50:26 
+Apr 25 11:50:26 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 11:50:26 AM=====================
+Apr 25 11:50:26 
+Apr 25 11:50:27 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 11:50:27 开始获取京喜工厂配置文件
+Apr 25 11:50:27 
+Apr 25 11:50:27 您的互助码选择的是用&隔开
+Apr 25 11:50:27 
+Apr 25 11:50:27 共0个京东账号
+Apr 25 11:50:27 
+Apr 25 11:50:27 您提供了13个账号的京喜工厂助力码
+Apr 25 11:50:27 
+Apr 25 11:50:27 
+Apr 25 11:50:27 ==============📣系统通知📣==============
+Apr 25 11:50:27 京喜工厂
+Apr 25 11:50:27 【提示】请先获取京东账号一cookie
+Apr 25 11:50:27 直接使用NobyDa的京东签到获取
+Apr 25 11:50:27 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 11:50:27 
+Apr 25 11:50:27 🔔京喜工厂, 结束! 🕛 0.648 秒
+Apr 25 11:50:27 
+Apr 25 11:50:28 获取签名参数成功！
+Apr 25 11:50:28 fp: 5593100929941161
+Apr 25 11:50:28 token: tk01wdf3b1cb8a8nYzNLT2lLUzJlfzLGybI8naAXmanjzaj77jhEo0kdm/zic5iRujCBKQDcC3jcP/AJCMBWxz50e1es
+Apr 25 11:50:28 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='r5T9/Nu3lS+z';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA256(str)}
+Apr 25 12:50:20 
+Apr 25 12:50:20 🔔京喜工厂, 开始!
+Apr 25 12:50:20 
+Apr 25 12:50:20 ====================共0个京东账号Cookie=========
+Apr 25 12:50:20 
+Apr 25 12:50:20 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 12:50:20 PM=====================
+Apr 25 12:50:20 
+Apr 25 12:50:21 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 12:50:21 开始获取京喜工厂配置文件
+Apr 25 12:50:21 
+Apr 25 12:50:21 您的互助码选择的是用&隔开
+Apr 25 12:50:21 
+Apr 25 12:50:21 共0个京东账号
+Apr 25 12:50:21 
+Apr 25 12:50:21 您提供了13个账号的京喜工厂助力码
+Apr 25 12:50:21 
+Apr 25 12:50:21 
+Apr 25 12:50:21 ==============📣系统通知📣==============
+Apr 25 12:50:21 京喜工厂
+Apr 25 12:50:21 【提示】请先获取京东账号一cookie
+Apr 25 12:50:21 直接使用NobyDa的京东签到获取
+Apr 25 12:50:21 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 12:50:21 
+Apr 25 12:50:21 🔔京喜工厂, 结束! 🕛 0.666 秒
+Apr 25 12:50:21 
+Apr 25 12:50:22 获取签名参数成功！
+Apr 25 12:50:22 fp: 1058677571314161
+Apr 25 12:50:22 token: tk01w9c7c1b8da8nMy9kK0d0djl0qAD4KgYQjKZZohpqmBet1MMkDAF372M50/pcTzW0d1McneuKVScleUNrlJ902CLl
+Apr 25 12:50:22 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='lKf0NExGWERc';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Apr 25 13:51:16 
+Apr 25 13:51:16 🔔京喜工厂, 开始!
+Apr 25 13:51:16 
+Apr 25 13:51:16 ====================共0个京东账号Cookie=========
+Apr 25 13:51:16 
+Apr 25 13:51:16 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 1:51:16 PM=====================
+Apr 25 13:51:16 
+Apr 25 13:51:17 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 13:51:17 开始获取京喜工厂配置文件
+Apr 25 13:51:17 
+Apr 25 13:51:17 您的互助码选择的是用&隔开
+Apr 25 13:51:17 
+Apr 25 13:51:17 共0个京东账号
+Apr 25 13:51:17 
+Apr 25 13:51:17 您提供了13个账号的京喜工厂助力码
+Apr 25 13:51:17 
+Apr 25 13:51:17 
+Apr 25 13:51:17 ==============📣系统通知📣==============
+Apr 25 13:51:17 京喜工厂
+Apr 25 13:51:17 【提示】请先获取京东账号一cookie
+Apr 25 13:51:17 直接使用NobyDa的京东签到获取
+Apr 25 13:51:17 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 13:51:17 
+Apr 25 13:51:17 🔔京喜工厂, 结束! 🕛 0.684 秒
+Apr 25 13:51:17 
+Apr 25 13:51:17 获取签名参数成功！
+Apr 25 13:51:17 fp: 8231700522181161
+Apr 25 13:51:17 token: tk01wb9ba1be8a8nSkNnbnBublJh62gYIz60dK3JnZlhh0/6wbZskL/IKMeJxi0+bbS0j9xzUnzoWK4if+NEWDeF/4ZL
+Apr 25 13:51:17 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='kekUGdwKx5W1';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Apr 25 14:51:47 
+Apr 25 14:51:47 🔔京喜工厂, 开始!
+Apr 25 14:51:47 
+Apr 25 14:51:47 ====================共0个京东账号Cookie=========
+Apr 25 14:51:47 
+Apr 25 14:51:47 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 2:51:47 PM=====================
+Apr 25 14:51:47 
+Apr 25 14:51:47 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 14:51:47 开始获取京喜工厂配置文件
+Apr 25 14:51:47 
+Apr 25 14:51:47 您的互助码选择的是用&隔开
+Apr 25 14:51:47 
+Apr 25 14:51:47 共0个京东账号
+Apr 25 14:51:47 
+Apr 25 14:51:47 您提供了13个账号的京喜工厂助力码
+Apr 25 14:51:47 
+Apr 25 14:51:47 
+Apr 25 14:51:47 ==============📣系统通知📣==============
+Apr 25 14:51:47 京喜工厂
+Apr 25 14:51:47 【提示】请先获取京东账号一cookie
+Apr 25 14:51:47 直接使用NobyDa的京东签到获取
+Apr 25 14:51:47 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 14:51:47 
+Apr 25 14:51:47 🔔京喜工厂, 结束! 🕛 0.757 秒
+Apr 25 14:51:47 
+Apr 25 14:51:48 获取签名参数成功！
+Apr 25 14:51:48 fp: 1246493296575161
+Apr 25 14:51:48 token: tk01w71421b31a8nbm1Ka0I4ZkJMN0nO02Z9xOGZtQCMdR0EqV7DPEXK5X4ctuevl07NyW4SFa6KXVo0AcVxTTtNZhrF
+Apr 25 14:51:48 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='cEJFyOP2eoTQ';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 15:51:48 
+Apr 25 15:51:48 🔔京喜工厂, 开始!
+Apr 25 15:51:48 
+Apr 25 15:51:48 ====================共0个京东账号Cookie=========
+Apr 25 15:51:48 
+Apr 25 15:51:48 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 3:51:48 PM=====================
+Apr 25 15:51:48 
+Apr 25 15:51:49 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 15:51:49 开始获取京喜工厂配置文件
+Apr 25 15:51:49 
+Apr 25 15:51:49 您的互助码选择的是用&隔开
+Apr 25 15:51:49 
+Apr 25 15:51:49 共0个京东账号
+Apr 25 15:51:49 
+Apr 25 15:51:49 您提供了13个账号的京喜工厂助力码
+Apr 25 15:51:49 
+Apr 25 15:51:49 
+Apr 25 15:51:49 ==============📣系统通知📣==============
+Apr 25 15:51:49 京喜工厂
+Apr 25 15:51:49 【提示】请先获取京东账号一cookie
+Apr 25 15:51:49 直接使用NobyDa的京东签到获取
+Apr 25 15:51:49 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 15:51:49 
+Apr 25 15:51:49 🔔京喜工厂, 结束! 🕛 0.708 秒
+Apr 25 15:51:49 
+Apr 25 15:51:49 获取签名参数成功！
+Apr 25 15:51:49 fp: 2417317311398161
+Apr 25 15:51:49 token: tk01wc7a21d24a8nNXpTQ0xJdVpjbWE4CUAhZr2ok4x1pbniHn+Nu8t44SNjVkjbPrhJUfBpx17tl4jqbGyMMVJ3avty
+Apr 25 15:51:49 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='esAxzv3fgfDU';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacSHA512(str,token)}
+Apr 25 16:51:53 
+Apr 25 16:51:53 🔔京喜工厂, 开始!
+Apr 25 16:51:53 
+Apr 25 16:51:53 ====================共0个京东账号Cookie=========
+Apr 25 16:51:53 
+Apr 25 16:51:53 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 4:51:53 PM=====================
+Apr 25 16:51:53 
+Apr 25 16:51:53 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 16:51:53 开始获取京喜工厂配置文件
+Apr 25 16:51:53 
+Apr 25 16:51:53 您的互助码选择的是用&隔开
+Apr 25 16:51:53 
+Apr 25 16:51:53 共0个京东账号
+Apr 25 16:51:53 
+Apr 25 16:51:53 您提供了13个账号的京喜工厂助力码
+Apr 25 16:51:53 
+Apr 25 16:51:53 
+Apr 25 16:51:53 ==============📣系统通知📣==============
+Apr 25 16:51:53 京喜工厂
+Apr 25 16:51:53 【提示】请先获取京东账号一cookie
+Apr 25 16:51:53 直接使用NobyDa的京东签到获取
+Apr 25 16:51:53 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 16:51:53 
+Apr 25 16:51:53 🔔京喜工厂, 结束! 🕛 0.703 秒
+Apr 25 16:51:53 
+Apr 25 16:51:54 获取签名参数成功！
+Apr 25 16:51:54 fp: 2313109646767161
+Apr 25 16:51:54 token: tk01wb7f31c1ba8nOGEybW9mcG8v49U+scDhTejw4RUFlvpP9lSsr7dNJnbIT7rcbshWb5/3RlvXK3j6r+n2QAtTGIYE
+Apr 25 16:51:54 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='pjioLpDYefqc';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Apr 25 17:51:46 
+Apr 25 17:51:46 🔔京喜工厂, 开始!
+Apr 25 17:51:46 
+Apr 25 17:51:46 ====================共0个京东账号Cookie=========
+Apr 25 17:51:46 
+Apr 25 17:51:46 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 5:51:46 PM=====================
+Apr 25 17:51:46 
+Apr 25 17:51:47 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 17:51:47 开始获取京喜工厂配置文件
+Apr 25 17:51:47 
+Apr 25 17:51:47 您的互助码选择的是用&隔开
+Apr 25 17:51:47 
+Apr 25 17:51:47 共0个京东账号
+Apr 25 17:51:47 
+Apr 25 17:51:47 您提供了13个账号的京喜工厂助力码
+Apr 25 17:51:47 
+Apr 25 17:51:47 
+Apr 25 17:51:47 ==============📣系统通知📣==============
+Apr 25 17:51:47 京喜工厂
+Apr 25 17:51:47 【提示】请先获取京东账号一cookie
+Apr 25 17:51:47 直接使用NobyDa的京东签到获取
+Apr 25 17:51:47 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 17:51:47 
+Apr 25 17:51:47 🔔京喜工厂, 结束! 🕛 0.708 秒
+Apr 25 17:51:47 
+Apr 25 17:51:47 获取签名参数成功！
+Apr 25 17:51:47 fp: 0750226108740161
+Apr 25 17:51:47 token: tk01w7dc81adda8nUzI0VUVhOC9nelV+D9FLSNHvL1wp/W6/k2mZSSRz8Z0nuHE/G06fuKp1vf8j8Y0Nx+Pg0Sp1prJC
+Apr 25 17:51:47 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='NC5Wr6THnSDC';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
+Apr 25 18:51:42 
+Apr 25 18:51:42 🔔京喜工厂, 开始!
+Apr 25 18:51:42 
+Apr 25 18:51:42 ====================共0个京东账号Cookie=========
+Apr 25 18:51:42 
+Apr 25 18:51:42 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 6:51:42 PM=====================
+Apr 25 18:51:42 
+Apr 25 18:51:43 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 18:51:43 开始获取京喜工厂配置文件
+Apr 25 18:51:43 
+Apr 25 18:51:43 您的互助码选择的是用&隔开
+Apr 25 18:51:43 
+Apr 25 18:51:43 共0个京东账号
+Apr 25 18:51:43 
+Apr 25 18:51:43 您提供了13个账号的京喜工厂助力码
+Apr 25 18:51:43 
+Apr 25 18:51:43 
+Apr 25 18:51:43 ==============📣系统通知📣==============
+Apr 25 18:51:43 京喜工厂
+Apr 25 18:51:43 【提示】请先获取京东账号一cookie
+Apr 25 18:51:43 直接使用NobyDa的京东签到获取
+Apr 25 18:51:43 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 18:51:43 
+Apr 25 18:51:43 🔔京喜工厂, 结束! 🕛 0.759 秒
+Apr 25 18:51:43 
+Apr 25 18:51:43 获取签名参数成功！
+Apr 25 18:51:43 fp: 9916685065371161
+Apr 25 18:51:43 token: tk01wdd6d1d12a8nczhCdmxPWmhB/O/9f9Rmaokn7fO6CuB3hlxXeVows3iganv+xwuJ9v8A53rbRiPQ99/gNAmkMozJ
+Apr 25 18:51:43 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='T303q1+yNJNC';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 19:50:10 
+Apr 25 19:50:10 🔔京喜工厂, 开始!
+Apr 25 19:50:10 
+Apr 25 19:50:10 ====================共0个京东账号Cookie=========
+Apr 25 19:50:10 
+Apr 25 19:50:10 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 7:50:10 PM=====================
+Apr 25 19:50:10 
+Apr 25 19:50:11 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 19:50:11 开始获取京喜工厂配置文件
+Apr 25 19:50:11 
+Apr 25 19:50:11 您的互助码选择的是用&隔开
+Apr 25 19:50:11 
+Apr 25 19:50:11 共0个京东账号
+Apr 25 19:50:11 
+Apr 25 19:50:11 您提供了13个账号的京喜工厂助力码
+Apr 25 19:50:11 
+Apr 25 19:50:11 
+Apr 25 19:50:11 ==============📣系统通知📣==============
+Apr 25 19:50:11 京喜工厂
+Apr 25 19:50:11 【提示】请先获取京东账号一cookie
+Apr 25 19:50:11 直接使用NobyDa的京东签到获取
+Apr 25 19:50:11 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 19:50:11 
+Apr 25 19:50:11 🔔京喜工厂, 结束! 🕛 0.686 秒
+Apr 25 19:50:11 
+Apr 25 19:50:11 获取签名参数成功！
+Apr 25 19:50:11 fp: 4898708984423161
+Apr 25 19:50:11 token: tk01wa6bc1be2a8nWURzUk9rdGhF0SRU+Z2NTQzAGK0xHluXzGq/9XTtRj2f29yEgdRoTr+gTRUAok3zK98WWojw626g
+Apr 25 19:50:11 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='f9BjMknxBM+3';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 20:50:25 
+Apr 25 20:50:25 🔔京喜工厂, 开始!
+Apr 25 20:50:25 
+Apr 25 20:50:25 ====================共0个京东账号Cookie=========
+Apr 25 20:50:25 
+Apr 25 20:50:25 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 8:50:25 PM=====================
+Apr 25 20:50:25 
+Apr 25 20:50:26 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 20:50:26 开始获取京喜工厂配置文件
+Apr 25 20:50:26 
+Apr 25 20:50:26 您的互助码选择的是用&隔开
+Apr 25 20:50:26 
+Apr 25 20:50:26 共0个京东账号
+Apr 25 20:50:26 
+Apr 25 20:50:26 您提供了13个账号的京喜工厂助力码
+Apr 25 20:50:26 
+Apr 25 20:50:26 
+Apr 25 20:50:26 ==============📣系统通知📣==============
+Apr 25 20:50:26 京喜工厂
+Apr 25 20:50:26 【提示】请先获取京东账号一cookie
+Apr 25 20:50:26 直接使用NobyDa的京东签到获取
+Apr 25 20:50:26 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 20:50:26 
+Apr 25 20:50:26 🔔京喜工厂, 结束! 🕛 0.678 秒
+Apr 25 20:50:26 
+Apr 25 20:50:26 获取签名参数成功！
+Apr 25 20:50:26 fp: 3978893730493161
+Apr 25 20:50:26 token: tk01w955f1b61a8nenY4bWt6WU962jZMlMb13eMxb8DlxyVEiXc8TAX7wFPRF1B9jCZ+ZxLw33OzTZf66WEesL3rNoLM
+Apr 25 20:50:26 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='uqDcPNPu39j0';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.MD5(str)}
+Apr 25 21:51:45 
+Apr 25 21:51:45 🔔京喜工厂, 开始!
+Apr 25 21:51:45 
+Apr 25 21:51:45 ====================共0个京东账号Cookie=========
+Apr 25 21:51:45 
+Apr 25 21:51:45 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 9:51:45 PM=====================
+Apr 25 21:51:45 
+Apr 25 21:51:46 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 21:51:46 开始获取京喜工厂配置文件
+Apr 25 21:51:46 
+Apr 25 21:51:46 您的互助码选择的是用&隔开
+Apr 25 21:51:46 
+Apr 25 21:51:46 共0个京东账号
+Apr 25 21:51:46 
+Apr 25 21:51:46 您提供了13个账号的京喜工厂助力码
+Apr 25 21:51:46 
+Apr 25 21:51:46 
+Apr 25 21:51:46 ==============📣系统通知📣==============
+Apr 25 21:51:46 京喜工厂
+Apr 25 21:51:46 【提示】请先获取京东账号一cookie
+Apr 25 21:51:46 直接使用NobyDa的京东签到获取
+Apr 25 21:51:46 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 21:51:46 
+Apr 25 21:51:46 🔔京喜工厂, 结束! 🕛 0.726 秒
+Apr 25 21:51:46 
+Apr 25 21:51:46 获取签名参数成功！
+Apr 25 21:51:46 fp: 6603640351998161
+Apr 25 21:51:46 token: tk01wc11e1c49a8nMWgzM0lqTVQ16bsTLADgi0OZquzwZLNS1BYZroXnPM9xDdwt1VDi4huiZKKA088iRNf0Zul6wOQ4
+Apr 25 21:51:46 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='AGze60JCz+Pm';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.SHA512(str)}
+Apr 25 22:50:03 
+Apr 25 22:50:03 🔔京喜工厂, 开始!
+Apr 25 22:50:03 
+Apr 25 22:50:03 ====================共0个京东账号Cookie=========
+Apr 25 22:50:03 
+Apr 25 22:50:03 ==================脚本执行- 北京时间(UTC+8)：4/25/2021, 10:50:03 PM=====================
+Apr 25 22:50:03 
+Apr 25 22:50:04 拼团活动ID: 获取成功 mNGPTrOPluOSeZcupPI40w==
+Apr 25 22:50:04 开始获取京喜工厂配置文件
+Apr 25 22:50:04 
+Apr 25 22:50:04 您的互助码选择的是用&隔开
+Apr 25 22:50:04 
+Apr 25 22:50:04 共0个京东账号
+Apr 25 22:50:04 
+Apr 25 22:50:04 您提供了13个账号的京喜工厂助力码
+Apr 25 22:50:04 
+Apr 25 22:50:04 
+Apr 25 22:50:04 ==============📣系统通知📣==============
+Apr 25 22:50:04 京喜工厂
+Apr 25 22:50:04 【提示】请先获取京东账号一cookie
+Apr 25 22:50:04 直接使用NobyDa的京东签到获取
+Apr 25 22:50:04 https://bean.m.jd.com/bean/signIndex.action
+Apr 25 22:50:04 
+Apr 25 22:50:04 🔔京喜工厂, 结束! 🕛 0.717 秒
+Apr 25 22:50:04 
+Apr 25 22:50:05 获取签名参数成功！
+Apr 25 22:50:05 fp: 4295426878070161
+Apr 25 22:50:05 token: tk01wc78f1cd3a8nK3V6Njd6aGdOgdwn8BwaUkosv6bLs0EofJnENf06jHqJSYhdksEXzdprMODFSqQ5HEIO/yYsx5cR
+Apr 25 22:50:05 enCryptMethodJD: function test(token,fingerprint,timestamp,appId,algo){const random='qkwOuXkUEe77';const str=`${token}${fingerprint}${timestamp}${appId}${random}`;return algo.HmacMD5(str,token)}
