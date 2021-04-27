@@ -69,7 +69,7 @@
 # 东东工厂
 26 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jdfactory.js |ts >> /scripts/logs/jd_jdfactory.log 2>&1
 # 赚京豆(微信小程序)
-12 0,18,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_syj.js |ts >> /scripts/logs/jd_syj.log 2>&1
+12 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_syj.js |ts >> /scripts/logs/jd_syj.log 2>&1
 # 京东快递签到
 47 1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_kd.js |ts >> /scripts/logs/jd_kd.log 2>&1
 # 京东汽车(签到满500赛点可兑换500京豆)
@@ -124,4 +124,4 @@
 5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-48 17 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+36 2 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
