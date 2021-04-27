@@ -59,7 +59,7 @@
 # 天天提鹅
 28 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_daily_egg.js |ts >> /scripts/logs/jd_daily_egg.log 2>&1
 # 金融养猪
-25 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_pigPet.js |ts >> /scripts/logs/jd_pigPet.log 2>&1
+32 0-23/6 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_pigPet.js |ts >> /scripts/logs/jd_pigPet.log 2>&1
 # 点点券
 40 0,20 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_necklace.js |ts >> /scripts/logs/jd_necklace.log 2>&1
 # 京喜工厂
@@ -120,6 +120,8 @@
 5-45/20 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_health_collect.js |ts >> /scripts/logs/jd_health_collect.log 2>&1
 # 幸运大转盘
 10 10,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_market_lottery.js |ts >> /scripts/logs/jd_market_lottery.log 2>&1
+# 领金贴
+5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-52 11 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+48 17 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
