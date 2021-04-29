@@ -111,9 +111,7 @@
 #家庭号
 10 6,7 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_family.js |ts >> /scripts/logs/jd_family.log 2>&1
 #京东直播（又回来了）
-30-50/5 12,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_live.js |ts >> /scripts/logs/jd_live.log 2>&1      
-#京小兑
-13 8,16,20 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
+30-50/5 12,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_live.js |ts >> /scripts/logs/jd_live.log 2>&1
 #京东健康社区
 13 1,6,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_health.js |ts >> /scripts/logs/jd_health.log 2>&1
 #京东健康社区收集健康能量
@@ -124,4 +122,4 @@
 5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-29 20 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+58 4 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
