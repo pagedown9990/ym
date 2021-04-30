@@ -122,4 +122,4 @@
 5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-26 17 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+17 9 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
