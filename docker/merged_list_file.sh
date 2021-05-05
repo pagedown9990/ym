@@ -11,8 +11,7 @@
 #超级直播间红包雨(活动时间不定期，出现异常提示请忽略。红包雨期间会正常)
 1,31 0-23/1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_live_redrain.js |ts >> /scripts/logs/jd_live_redrain.log 2>&1
 
-#TCL 活动时间：4.21-5.3日
-10 0,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_tcl.js |ts >> /scripts/logs/jd_tcl.log 2>&1
+
 ##############长期活动##############
 # 签到
 7 0,17 * * * cd /scripts && node jd_bean_sign.js |ts >> /scripts/logs/jd_bean_sign.log 2>&1
@@ -116,4 +115,4 @@
 5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-17 14 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+42 9 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
