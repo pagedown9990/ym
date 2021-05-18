@@ -4,6 +4,8 @@
 30 * * * * sh +x /scripts/docker/auto_help.sh collect |ts >> /scripts/logs/auto_help_collect.log 2>&1
 
 ##############短期活动##############
+#女装盲盒 活动时间：2021-05-1到2021-05-31
+35 1,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_nzmh.js |ts >> /scripts/logs/jd_nzmh.log 2>&1
 
 #京东极速版红包(活动时间：2021-5-5至2021-5-5)
 45 0,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_speed_redpocke.js |ts >> /scripts/logs/jd_speed_redpocke.log 2>&1
@@ -117,4 +119,4 @@
 5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-41 1 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+45 5 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
