@@ -72,7 +72,7 @@
 # 京东汽车(签到满500赛点可兑换500京豆)
 0 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_car.js |ts >> /scripts/logs/jd_car.log 2>&1
 # 领京豆额外奖励(每日可获得3京豆)
-23 */1 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_bean_home.js |ts >> /scripts/logs/jd_bean_home.log 2>&1
+23 1,12,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_bean_home.js |ts >> /scripts/logs/jd_bean_home.log 2>&1
 # 微信小程序京东赚赚
 6 0-5/1,11 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jdzz.js |ts >> /scripts/logs/jd_jdzz.log 2>&1
 # crazyJoy自动每日任务
@@ -117,6 +117,8 @@
 10 10,23 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_market_lottery.js |ts >> /scripts/logs/jd_market_lottery.log 2>&1
 # 领金贴
 5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
+# 跳跳乐瓜分京豆
+15 0-23/2 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jump.js |ts >> /scripts/logs/jd_jump.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-25 3 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+52 12 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
