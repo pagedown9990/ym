@@ -118,7 +118,7 @@
 # 领金贴
 5 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jin_tie.js |ts >> /scripts/logs/jd_jin_tie.log 2>&1
 # 跳跳乐瓜分京豆
-15 0-23/2 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jump.js |ts >> /scripts/logs/jd_jump.log 2>&1
+15 0,12,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jump.js |ts >> /scripts/logs/jd_jump.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-52 12 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+1 9 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
