@@ -22,6 +22,11 @@
 0 0,12,18,21 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_carnivalcity.js |ts >> /scripts/logs/jd_carnivalcity.log 2>&1
 #618动物联萌
 33 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_zoo.js |ts >> /scripts/logs/jd_zoo.log 2>&1
+
+#家电星推官 活动时间：2021年5月27日 00:00:00-2021年6月18日 23:59:59
+0 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_xtg.js |ts >> /scripts/logs/jd_xtg.log 2>&1
+
+0 0 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_xtg_help.js |ts >> /scripts/logs/jd_xtg_help.log 2>&1
 ##############长期活动##############
 # 签到
 7 0,17 * * * cd /scripts && node jd_bean_sign.js |ts >> /scripts/logs/jd_bean_sign.log 2>&1
@@ -127,4 +132,4 @@
 15 0,12,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jump.js |ts >> /scripts/logs/jd_jump.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-24 22 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+27 0 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
