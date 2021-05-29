@@ -115,7 +115,7 @@
 #监控crazyJoy分红
 10 12 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_crazy_joy_bonus.js |ts >> /scripts/logs/jd_crazy_joy_bonus.log 2>&1
 #京喜财富岛
-5 */2 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_cfd.js |ts >> /scripts/logs/jd_cfd.log 2>&1
+5 */4 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_cfd.js |ts >> /scripts/logs/jd_cfd.log 2>&1
 # 删除优惠券(默认注释，如需要自己开启，如有误删，已删除的券可以在回收站中还原，慎用)
 #20 9 * * 6 sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_delCoupon.js |ts >> /scripts/logs/jd_delCoupon.log 2>&1
 #家庭号
@@ -134,4 +134,4 @@
 15 0,12,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jump.js |ts >> /scripts/logs/jd_jump.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-59 17 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+29 8 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
