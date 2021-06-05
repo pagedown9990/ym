@@ -36,6 +36,8 @@
 20 1,21 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_mcxhd.js |ts >> /scripts/logs/jd_mcxhd.log 2>&1
 #京喜领88元红包(6.31到期)
 30 1,6,12,21 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jxlhb.js |ts >> /scripts/logs/jd_jxlhb.log 2>&1
+#省钱大赢家之翻翻乐
+10,40 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_big_winner.js |ts >> /scripts/logs/jd_big_winner.log 2>&1
 ##############长期活动##############
 # 签到
 7 0,17 * * * cd /scripts && node jd_bean_sign.js |ts >> /scripts/logs/jd_bean_sign.log 2>&1
@@ -139,4 +141,4 @@
 15 0,12,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jump.js |ts >> /scripts/logs/jd_jump.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-59 2 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+50 17 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
