@@ -79,8 +79,6 @@
 28 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_daily_egg.js |ts >> /scripts/logs/jd_daily_egg.log 2>&1
 # 金融养猪
 32 0-23/6 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_pigPet.js |ts >> /scripts/logs/jd_pigPet.log 2>&1
-# 点点券
-40 0,20 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_necklace.js |ts >> /scripts/logs/jd_necklace.log 2>&1
 # 京喜工厂
 50 * * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_dreamFactory.js |ts >> /scripts/logs/jd_dreamFactory.log 2>&1
 # 东东小窝
@@ -143,4 +141,4 @@
 15 0,12,22 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); node /scripts/jd_jxmc.js |ts >> /scripts/logs/jd_jxmc.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-8 14 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+31 11 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
